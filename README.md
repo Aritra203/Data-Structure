@@ -2,7 +2,6 @@
 <h1 align="center">
 <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" />
 <br>DATA-STRUCTURE</h1>
-<h3>◦ HTTPStatus Exception: 401</h3>
 <h3>◦ Developed with the software and tools below.</h3>
 
 <p align="center">
@@ -37,8 +36,17 @@
 
 ```sh
 └── Data-Structure/
-    └── LinkedList/
-        ├── linkedlist.c
+    ├── LinkedList-DS/
+    │   └── linkedlist.c
+    ├── Queue-DS/
+    │   ├── queue_array_implementation.c
+    │   └── queue_linkedlist_implementation.c
+    ├── Stack-DS/
+    │   ├── stack_array_implementation.c
+    │   └── stack_linkedlist_implementation.c
+    ├── Tree_DS/
+    │   ├── binary_search_tree.c
+    │   └── binary_tree.c
 
 ```
 
@@ -47,11 +55,38 @@
 
 ## ⚙️ Modules
 
-<details closed><summary>Linkedlist</summary>
+<details closed><summary>Stack-ds</summary>
 
-| File                                                                                          | Summary                   |
-| ---                                                                                           | ---                       |
-| [linkedlist.c](https://github.com/Aritra203/Data-Structure/blob/main/LinkedList/linkedlist.c) | HTTPStatus Exception: 401 |
+| File                                                                                                                                  | Summary                   |
+| ---                                                                                                                                   | ---                       |
+| [stack_linkedlist_implementation.c](https://github.com/Aritra203/Data-Structure/blob/main/Stack-DS/stack_linkedlist_implementation.c) | HTTPStatus Exception: 401 |
+| [stack_array_implementation.c](https://github.com/Aritra203/Data-Structure/blob/main/Stack-DS/stack_array_implementation.c)           | HTTPStatus Exception: 401 |
+
+</details>
+
+<details closed><summary>Tree_ds</summary>
+
+| File                                                                                                       | Summary                   |
+| ---                                                                                                        | ---                       |
+| [binary_tree.c](https://github.com/Aritra203/Data-Structure/blob/main/Tree_DS/binary_tree.c)               | HTTPStatus Exception: 401 |
+| [binary_search_tree.c](https://github.com/Aritra203/Data-Structure/blob/main/Tree_DS/binary_search_tree.c) | HTTPStatus Exception: 401 |
+
+</details>
+
+<details closed><summary>Linkedlist-ds</summary>
+
+| File                                                                                             | Summary                   |
+| ---                                                                                              | ---                       |
+| [linkedlist.c](https://github.com/Aritra203/Data-Structure/blob/main/LinkedList-DS/linkedlist.c) | HTTPStatus Exception: 401 |
+
+</details>
+
+<details closed><summary>Queue-ds</summary>
+
+| File                                                                                                                                  | Summary                   |
+| ---                                                                                                                                   | ---                       |
+| [queue_linkedlist_implementation.c](https://github.com/Aritra203/Data-Structure/blob/main/Queue-DS/queue_linkedlist_implementation.c) | HTTPStatus Exception: 401 |
+| [queue_array_implementation.c](https://github.com/Aritra203/Data-Structure/blob/main/Queue-DS/queue_array_implementation.c)           | HTTPStatus Exception: 401 |
 
 </details>
 
@@ -106,13 +141,12 @@ gcc -o myapp main.c
 > - [ ] `ℹ️  Task 2: Implement Y`
 > - [ ] `ℹ️ ...`
 
-
 ---
 
 ## 📄 License
 
 
-This project is protected under the [MIT License](https://choosealicense.com/licenses/mit/) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
